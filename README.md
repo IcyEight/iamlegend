@@ -1,5 +1,7 @@
-This project is done as a school project. The website is based on novel I am Legend. This is an adaptive creation to that novel and represents a blog RobertNeville himself regularly would have maintained if he were to blog.
+This website is built as a school project. This is based on novel I am Legend written by Richard Matheson. This is an adaptive creation to that novel and represents a blog Robert Neville himself regularly would have maintained if he were to blog.
 
-I am Mahmuda Liza and am currently interning as a Software Engineer at SAP.
+This github repository is influenced by Sean Gransee's contribution on 
+https://github.com/seangransee/Applause-For-a-Cause.git
 
-After coming to USA on tenth grade, I have joined Robotics club and won competitions such as SeaPerch, FirstTech and Lego Mindstorm. Now I am a pre-junior at Drexel University majoring in computer science. I worked as Software Engineer at FSS. My goal is to become a skilled and intelligent computer programmer. What I love is innovating and making people happy!
+About website creator : I am Mahmuda Liza and am currently interning as a Software Engineer at SAP.
+
