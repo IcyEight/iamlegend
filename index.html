@@ -186,6 +186,25 @@
 				effect : "fadeIn",
 			});
 
+			// Hide certain elements when the viewport isn't big enough to show them without overlap
+			function handleDisplay() 
+			{
+				// Show or hide footer based on window size
+				if($(window).width() < 1263) {
+					$('footer').fadeOut();
+				} else {
+					$('footer').fadeIn();
+				}
+			}
+
+			// Event handlers to call the handleDisplay() function
+			$(window).resize(function() {
+				handleDisplay();
+			});
+			$(window).load(function() {
+				handleDisplay();
+			});
+
 			// Make any links to external sources open in a new window
 			$(document).ready(function() {
 				$("a[href^=http]").each(function() {
