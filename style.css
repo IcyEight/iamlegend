@@ -208,7 +208,7 @@ td { vertical-align: top; }
 
 
 /* ===== custom styles ======================================================
-   Author: Sean Gransee
+   Author: Mahmuda Liza
    ========================================================================== */
 
 /* LEFT SIDEBAR */
@@ -326,10 +326,6 @@ p {
 	padding-top: 10px;
 }
 
-.nojs {
-	margin-left: -143px;
-}
-
 
 /* SLIDESHOW */
 
@@ -370,61 +366,6 @@ IMG.last-active {
     z-index:9;
 }
 
-/* FOOTER */
-
-footer {
-	position: fixed;
-	right: 0;
-	bottom: 0;
-	padding: 0 10px 10px 0;
-	display: none;
-}
-
-footer p {
-	font-size: 11px;
-	line-height: normal;
-	margin: 0;
-	padding: 0;
-	color: #999;
-}
-
-footer a, footer a:visited {
-	color: #999;
-}
-
-/* MEDIA */
-
-.news {
-	padding: 0;
-	padding-left: 15px;
-	border-left: 10px solid #965599;
-}
-
-.news h1 {
-	font-size: 26px;
-	margin: 0;
-}
-
-.news h1 a{
-	text-decoration: none;
-}
-
-.news h2 {
-	font-size: 14px;
-	color: #999;
-	margin: 0;
-}
-
-.caption {
-	margin-top: 3px;
-	color: #999;
-	font-size: 12px;
-	text-align: center;
-}
-
-.in-media {
-	margin: 50px 0;
-}
 
 /* ==|== non-semantic helper classes ========================================
    Please define your styles before this section.
@@ -448,42 +389,3 @@ footer a, footer a:visited {
 .clearfix:after { clear: both; }
 .clearfix { zoom: 1; }
 
-
-
-/* ==|== media queries ======================================================
-   PLACEHOLDER Media Queries for Responsive Design.
-   These override the primary ('mobile first') styles
-   Modify as content requires.
-   ========================================================================== */
-
-@media only screen and (min-width: 480px) {
-  /* Style adjustments for viewports 480px and over go here */
-
-}
-
-@media only screen and (min-width: 768px) {
-  /* Style adjustments for viewports 768px and over go here */
-
-}
-
-
-
-/* ==|== print styles =======================================================
-   Print styles.
-   Inlined to avoid required HTTP connection: h5bp.com/r
-   ========================================================================== */
- 
-@media print {
-  * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
-  a, a:visited { text-decoration: underline; }
-  a[href]:after { content: " (" attr(href) ")"; }
-  abbr[title]:after { content: " (" attr(title) ")"; }
-  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
-  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
-  thead { display: table-header-group; } /* h5bp.com/t */
-  tr, img { page-break-inside: avoid; }
-  img { max-width: 100% !important; }
-  @page { margin: 0.5cm; }
-  p, h2, h3 { orphans: 3; widows: 3; }
-  h2, h3 { page-break-after: avoid; }
-}
