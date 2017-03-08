@@ -367,6 +367,28 @@ IMG.last-active {
 }
 
 
+/* FOOTER */
+
+footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding: 0 10px 10px 0;
+  display: none;
+}
+
+footer p {
+  font-size: 11px;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  color: #999;
+}
+
+footer a, footer a:visited {
+  color: #999;
+}
+
 /* ==|== non-semantic helper classes ========================================
    Please define your styles before this section.
    ========================================================================== */
